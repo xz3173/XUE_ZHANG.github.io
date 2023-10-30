@@ -16,7 +16,7 @@ This is a [link](about.html) to a brief introductory landing page.
 
 
 # My resume
-This is a [link]() to a page giving my academic and professional experience (resume).
+This is a [link](resume.html) to a page giving my academic and professional experience (resume).
 
 # Other stuff
 This is a [link]() in the site navigation for my GitHub account, email, and other professional networks.
