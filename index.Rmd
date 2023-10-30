@@ -12,7 +12,7 @@ output:
 ![](images/snow.webp)
 
 # This is a brief introduction about myself
-This is a [link]() to a brief introductory landing page.
+This is a [about]() to a brief introductory landing page.
 
 
 # My resume
@@ -25,4 +25,3 @@ Here's a link to the [African American Artistry Association](https://xuezhang081
 
 Here's a link to the [kalimba fans club](https://1602521339.wixsite.com/kalimba-fans-club) website.
 
-Here's a link to the [about](about.html) page.
