@@ -12,7 +12,7 @@ output:
 ![](images/snow.webp)
 
 # This is a brief introduction about myself
-This is a [about]() to a brief introductory landing page.
+This is a [link](about.html) to a brief introductory landing page.
 
 
 # My resume

@@ -1,0 +1,12 @@
+---
+title: "My Resume"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# My Resume
+
+A page giving your academic and professional experience (i.e. a resume)
