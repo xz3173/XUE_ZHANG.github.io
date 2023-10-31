@@ -12,13 +12,13 @@ output:
 ![](images/snow.webp)
 
 # About Myself
-Hello, my name is Xue Zhang. I am a first year MS student who majors in Biostatistics in Columbia University Mailman School of Public Health. Currently I have moved from San Diego to New York to pursue my academic dream. In my free time, I love travel, hiking, cooking, and learning new stuffs. This is a [link](about.html) to a brief introductory landing page.
+Hello, my name is Xue Zhang. In Chinese, my name means snow. Currently I have moved from sunny San Diego to rainy New York to pursue my academic dream. In my free time, I love travel, hiking, cooking, and learning new stuffs. Here's a [link](about.html) to a brief introductory landing page.
 
 ![](images/me.jpeg)
 
 
 # My resume
-This is a [link](resume.html) to a page giving my academic and professional experience (resume).
+Here's a [link](resume.html) to a page giving my academic and professional experience (resume).
 
 ![](images/resume.jpeg)
 
