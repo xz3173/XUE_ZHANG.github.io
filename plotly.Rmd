@@ -7,5 +7,103 @@ output:
     theme: cerulean
 ---
 
-# Plotly
+
+
+We're making interactive plots
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+```{r}
+data("instacart")
+```
+
+
+# Scatterplot
+Let's make a scatterplot to show that the most common aisles are more likely to be reordered from!
+```{r}
+# Summarizing the data by aisle_id
+summary_data = instacart |>
+  group_by(aisle_id, aisle) |>
+  summarize(
+    total_orders = n(),
+    avg_reordered_rate = mean(reordered, na.rm = TRUE)
+  ) |>
+  arrange(-total_orders) 
+
+# Plotting the data
+summary_data |>
+  plot_ly(x = ~aisle,
+          y = ~avg_reordered_rate,
+          text = ~aisle,
+          type = "scatter",
+          mode = "markers") |>
+  layout(title = "Relationship between Aisle Popularity and Reorder Rate",
+         xaxis = list(title = "Aisles (Ordered by Popularity)"),
+         yaxis = list(title = "Average Reorder Rate"))
+```
+
+
+
+
+# Box plot
+Let's make a box plot to show that the time of day that users purchase specific products!
+
+```{r}
+# Define a threshold for popular products, for example, the top 30
+top_n_products = 30
+
+# Extract the most popular products
+popular_products = instacart |>
+  count(product_id, product_name) |>
+  arrange(-n) |>
+  slice_head(n = top_n_products) |>
+  pull(product_name)
+
+# Filter the main data for only popular products
+filtered_data = instacart |>
+  filter(product_name %in% popular_products)
+
+# Plotting the data using plotly
+plot_ly(data = filtered_data,
+        x = ~order_hour_of_day,
+        y = ~product_name, 
+        type = "box",
+        colors = "viridis") |>
+  
+  layout(title = "Distribution of Purchase Hours for Popular Products",
+         xaxis = list(title = "Hour of Day"),
+         yaxis = list(title = "Product"))
+
+```
+
+
+# Bar plot
+Let's make a bar plot to show that aisles with with more than 10000 items ordered!
+
+```{r}
+# filtering aisles with more than 10000 items ordered
+instacart |>
+  group_by(aisle) |>
+  summarise(order_count = n()) |>
+  filter(order_count > 10000) |>
+  arrange(order_count) |>
+
+# plotting
+  plot_ly(
+    x = ~aisle,
+    y = ~order_count,
+    type = "bar",
+    colors = "viridis") |>
+  layout(title = "Nubmer of Items Ordered in Each Aisle",
+         xaxis = list(title = "Aisle"),
+         yaxis = list(title = "Nuber of Items Ordered"))
+```
+
+
+
 
