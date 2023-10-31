@@ -19,6 +19,7 @@ library(plotly)
 ```
 
 ```{r}
+# let's focus on the instacart dataset
 data("instacart")
 ```
 

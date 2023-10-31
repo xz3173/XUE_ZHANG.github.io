@@ -9,7 +9,14 @@ output:
 
 
 
-My name is Xue Zhang, and a student who majors in biostatistics at the Columbia University Mailman School of Public Health. 
+Hello, my name is Xue Zhang. I am a first year MS student who majors in biostatistics at the Columbia University Mailman School of Public Health. 
 
+![](images/mailman.jpg)
 
+My undergraduate degree is in global health. I have made this choice because the goal of global health program has attracted me, which is "a field of study, an urgent social concern, and a powerful interdisciplinary intellectual synthesis aimed at understanding and productively intervening in processes of health, illness, and healing across the globe." Through studying relevant global health topics, I have obtained an in-depth understanding of factors related to illness, health, and healing from a comparative and interdisciplinary perspective that transcends national borders and regional interests and takes cultural differences and cross-cultural diversity entirely into account. I believe that I have obtained determination, motivation, attention to detail, and interpretative and intuitive skills in my academic career and that this provides me ambition and the ability to excel in the program. My hobbies are the learning of various music instruments and hiking. An aspiration to discover a new interest and a commitment to a long-term task is my strength to hold these hobbies.
 
+![](images/global_health.jpeg)
+
+My career goal is to be a skilled biostatistician. I aim to work in the pharmaceutical industry to use epidemiologic and biostatistical methods to design, implement, and evaluate disease control interventions in clinical trials. My research interest is in designing and analyzing large and complex data in observing and controlling genetic variations on chronic disease or infectious disease. I also aim to work as a medical device manufacturer that could develop a new or experimental treatment in a project to determine the links between certain lifestyle factors and disease prevalence and calculate data to support or disprove research and altering from smartphones or smart watches.
+
+![](images/biost.jpeg)

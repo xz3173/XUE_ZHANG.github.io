@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "Welcome to My Personal Website"
 output: 
   html_document:
     toc: true
@@ -7,19 +7,25 @@ output:
     theme: cerulean
 ---
 
-# Welcome to my Personal Website
+
 
 ![](images/snow.webp)
 
-# This is a brief introduction about myself
+# About Myself
 This is a [link](about.html) to a brief introductory landing page.
 
+Hello, my name is Xue Zhang. I am a first year MS student who majors in Biostatistics in Columbia University Mailman School of Public Health. Currently I have moved from San Diego to New York to pursure my academic dream. In my free time, I love travel, hiking, cooking, and learning new stuffs.
 
 # My resume
 This is a [link](resume.html) to a page giving my academic and professional experience (resume).
 
 # Other stuff
+During my time at community college, I have callobarated with other students to create a website about African American Artistry Association. 
+
 Here's a link to the [African American Artistry Association](https://xuezhang0814.wixsite.com/aaaa) website.
+
+
+During my time in the pandemic, I have learned how to play Kalimba and create a website for anyone interested in joining with me.
 
 Here's a link to the [Kalimba Fans Club](https://1602521339.wixsite.com/kalimba-fans-club) website.
 
