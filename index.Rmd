@@ -19,9 +19,7 @@ This is a [link](about.html) to a brief introductory landing page.
 This is a [link](resume.html) to a page giving my academic and professional experience (resume).
 
 # Other stuff
-This is a [link]() in the site navigation for my GitHub account, email, and other professional networks.
-
 Here's a link to the [African American Artistry Association](https://xuezhang0814.wixsite.com/aaaa) website.
 
-Here's a link to the [kalimba fans club](https://1602521339.wixsite.com/kalimba-fans-club) website.
+Here's a link to the [Kalimba Fans Club](https://1602521339.wixsite.com/kalimba-fans-club) website.
 
